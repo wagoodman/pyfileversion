@@ -36,15 +36,15 @@ with fileVersion.VersionManager(".version.json", listOfFiles) as mgr:
 
 This could show output similar to:
 ```
-    This application has been modified!
+This application has been modified!
 
-    [unchanged]          src.py
-    [unchanged]          deps.py
-    [modified]           main.py
-       Modified Lines: [12]
-       Missing Lines:  [4, 8, 14]
+[unchanged]          src.py
+[unchanged]          deps.py
+[modified]           main.py
+   Modified Lines: [12]
+   Missing Lines:  [4, 8, 14]
 
-    Version: b3c0cc79c84a3911507754785b3c3f3c
+Version: b3c0cc79c84a3911507754785b3c3f3c
 ```
 
 Or if you just want output similar to `md5sum` you can do:
@@ -59,9 +59,9 @@ with fileVersion.VersionManager(".version.json", listOfFiles) as mgr:
 
 This could show output similar to:
 ```
-    1da0f46abcbd91e75123e5e630d0dfd5  src.py
-    6821bc5a92851b0afde3bce96b58121d  deps.py
-    f985a3eb24d6fffe902243d1f038b11c  main.py
+1da0f46abcbd91e75123e5e630d0dfd5  src.py
+6821bc5a92851b0afde3bce96b58121d  deps.py
+f985a3eb24d6fffe902243d1f038b11c  main.py
 ```
 
 The `VersionManager` class takes an optional `hashAlgorithm` parameter (default is `md5`, the fastest is tied between `mmh3` and `xxh64`). The supported algorithms are:
