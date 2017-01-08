@@ -4,15 +4,15 @@ known run.
 
 Potential use cases are:
 
-    * You're in production and want to check if there are any patches that
-    have been applied (and need to be reapplied) before performing a fresh install. 
+* You're in production and want to check if there are any patches that
+have been applied (and need to be reapplied) before performing a fresh install. 
 
-    * You've handed out various copies of a set of python scripts 
-    to folks and they are saying that "it's not working anymore!"...
-    Run this to check which lines of code have been changed without 
-    needing to drop a copy of the original and run `diff` against it.
+* You've handed out various copies of a set of python scripts 
+to folks and they are saying that "it's not working anymore!"...
+Run this to check which lines of code have been changed without 
+needing to drop a copy of the original and run `diff` against it.
 
-    * You want your application to check itself for modifications on application startup.
+* You want your application to check itself for modifications on application startup.
 
 *Note*: This is not intended to protect against malicious tampering, only accidental modifications.
 
