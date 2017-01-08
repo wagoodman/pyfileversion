@@ -14,7 +14,7 @@ needing to drop a copy of the original and run `diff` against it.
 
 * You want your application to check itself for modifications on application startup.
 
-*Note*: This is not intended to protect against malicious tampering, only accidental modifications.
+*Note*: This is not intended to protect against malicious tampering.
 
 ### Usage
 Use it to show changes to your script source files. If anything has been modified, show the changed line number for each file and exit:
