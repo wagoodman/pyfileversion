@@ -92,14 +92,14 @@ The `VersionManager` class takes an optional `hashAlgorithm` parameter (default 
 * RIPEMD160
 * whirlpool
 
-**From `xxhash`**
+**From `xxhash`** (`pip install xxhash`)
 * xxh32
 * xxh64
 
-**From `mmh3`**
+**From `mmh3`** (`pip install mmh3`)
 * mmh3
 
-**From `pyhash`**
+**From `pyhash`** (`pip install pyhash`... needs a few other depencencies too)
 * city_128
 * city_64
 * fnv1_32
