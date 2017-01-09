@@ -67,29 +67,20 @@ f985a3eb24d6fffe902243d1f038b11c  main.py
 The `VersionManager` class takes an optional `hashAlgorithm` parameter (default is `md5`, the fastest is tied between `mmh3` and `xxh64`). The supported algorithms are:
 
 **From `hashlib`**
-* SHA1
-* SHA224
-* SHA
-* SHA384
 * ecdsa-with-SHA1
-* SHA256
-* SHA512
 * md4
 * md5
-* sha1
 * dsaWithSHA
 * DSA-SHA
-* sha224
 * dsaEncryption
 * DSA
 * ripemd160
 * sha
-* MD5
-* MD4
-* sha384
+* sha1
+* sha224
 * sha256
+* sha384
 * sha512
-* RIPEMD160
 * whirlpool
 
 **From `xxhash`** (`pip install xxhash`)
